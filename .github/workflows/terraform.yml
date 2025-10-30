@@ -1,0 +1,17 @@
+---
+name: This is my first github actions workflow
+ on: workflow_dispatch
+ jobs:
+   job1:
+     runs-on: ubuntu-latest #an agent VM
+     steps:
+       - name: Run a linux command
+         run: echo "Hello Everyone!"
+     job2:
+     runs-on: ubuntu-latest
+     steps:
+       - name: Run multiple commands
+         run: | #to run multiple commands
+           hostname -s
+           echo "Bye Bye"
+~
