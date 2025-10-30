@@ -1,7 +1,8 @@
 ---
 name: This is my first github actions workflow
 
-on: workflow_dispatch
+on: 
+push:
 
 jobs:
   job1:
