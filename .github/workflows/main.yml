@@ -2,7 +2,11 @@
 name: This is my first github actions workflow
 
 on: 
-push:
+ push:
+  branches:
+   - main
+   - dev
+   - test
 
 jobs:
   job1:
