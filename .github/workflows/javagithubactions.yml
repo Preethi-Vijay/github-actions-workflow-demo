@@ -3,7 +3,7 @@ name: build java application
 on:
  push:
   branches:
-   - master
+   - main
 jobs:
  buildjob:
   runs-on: Ubuntu-latest
